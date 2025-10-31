@@ -37,27 +37,27 @@ export function HomePage(_props: HomePageProps) {
       <Header />
 
       {/* Logo - positioned to sit on top of header */}
-      <div className="fixed top-2 left-1/2 -translate-x-1/2 z-50">
+      <div className="fixed top-1 md:top-2 left-1/2 -translate-x-1/2 z-50">
         <img
           src="/veronawebsite/logo/ChatGPT Image 18 aug 2025, 18_22_31 (1).png"
           alt="Handmade by Verona"
-          className="w-20 h-20 md:w-28 md:h-28 rounded-full object-cover shadow-xl border-4 border-verona-white"
+          className="w-12 h-12 md:w-28 md:h-28 rounded-full object-cover shadow-xl border-2 md:border-4 border-verona-white"
         />
       </div>
 
       {/* Hero Section */}
-      <div className="pt-24 pb-6 bg-gradient-to-b from-verona-white to-verona-cream">
+      <div className="pt-16 md:pt-24 pb-2 md:pb-6 bg-gradient-to-b from-verona-white to-verona-cream">
       </div>
 
       {/* Products Section */}
-      <div className="pb-16 px-6">
+      <div className="pb-16 px-4 md:px-6">
         <div className="max-w-7xl mx-auto">
           {loading ? (
             <div className="text-center text-verona-brown py-12">
               <p className="text-lg">Producten laden...</p>
             </div>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-8">
               {products.map((product) => (
                 <ProductCard
                   key={product.id}
