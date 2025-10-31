@@ -8,7 +8,7 @@ export function Header() {
           {/* Left side */}
           <div className="flex items-center gap-6">
             <a
-              href="mailto:contact@hybridmethod.com"
+              href="mailto:info@handmadebyverona.com"
               className="flex items-center gap-2 text-neutral-charcoal hover:text-neutral-darkest transition-colors duration-300"
               aria-label="Send email"
             >
@@ -21,10 +21,10 @@ export function Header() {
           <div className="flex-shrink-0 text-center">
             <a href="/" className="block">
               <h1 className="text-2xl md:text-3xl font-bold text-neutral-charcoal">
-                Hybrid Method
+                Handmade by Verona
               </h1>
               <p className="text-neutral-darker text-xs md:text-sm font-medium mt-1">
-                Personal Training
+                Handcrafted with Love
               </p>
             </a>
           </div>
@@ -32,7 +32,7 @@ export function Header() {
           {/* Right side - Social Links */}
           <div className="flex items-center gap-6">
             <a
-              href="https://www.instagram.com/hybridmethod/"
+              href="https://www.instagram.com/handmadebyverona/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-neutral-charcoal hover:text-neutral-darkest transition-colors duration-300"

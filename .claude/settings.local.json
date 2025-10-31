@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(npm install)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nTransform site into Handmade by Verona shop with product gallery\n\n- Updated branding from Hybrid Method to Handmade by Verona\n- Created ProductCard component for displaying shop items\n- Transformed HomePage into a beautiful product gallery layout\n- Added responsive grid layout for products\n- Created public/products folder structure for product images\n- Added placeholder products with sample data structure\n- Updated all links to point to handmadebyverona Instagram\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
