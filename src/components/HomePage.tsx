@@ -25,7 +25,7 @@ export function HomePage() {
           <div className="bg-neutral-lightest rounded-2xl p-6 md:p-8 shadow-sm mb-8">
             <nav className="space-y-3">
               <LinkCard
-                href="https://www.instagram.com/hybridmethod/"
+                href="https://www.instagram.com/handmadebyverona/"
                 icon={<InstagramIcon size={20} />}
                 external
               >
