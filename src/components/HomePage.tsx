@@ -32,7 +32,7 @@ export function HomePage(_props: HomePageProps) {
   }, [])
 
   return (
-    <div className="min-h-screen bg-neutral-lighter">
+    <div className="min-h-screen bg-verona-beige-light">
       {/* Header */}
       <Header />
 
@@ -41,7 +41,7 @@ export function HomePage(_props: HomePageProps) {
         <div className="max-w-7xl mx-auto">
           {/* Products Grid - 4 columns */}
           {loading ? (
-            <div className="text-center text-neutral-darker py-12">
+            <div className="text-center text-verona-brown py-12">
               <p className="text-lg">Producten laden...</p>
             </div>
           ) : (

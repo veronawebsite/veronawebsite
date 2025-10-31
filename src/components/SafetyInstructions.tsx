@@ -6,19 +6,28 @@ interface SafetyInstructionsProps {
 
 export function SafetyInstructions(_props: SafetyInstructionsProps) {
   return (
-    <div className="min-h-screen bg-neutral-lighter">
+    <div className="min-h-screen bg-verona-beige-light">
       <Header />
 
       <div className="pt-80 md:pt-72 pb-12 px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-neutral-lightest rounded-2xl p-8 md:p-12 shadow-sm">
-            <h1 className="text-3xl md:text-4xl font-bold text-neutral-charcoal mb-6">
+          <div className="bg-verona-white rounded-2xl p-8 md:p-12 shadow-lg border border-verona-beige">
+            <h1 className="text-3xl md:text-4xl font-bold text-verona-olive mb-8 text-center">
               Veiligheidsvoorschriften
             </h1>
 
-            <div className="space-y-6 text-neutral-darker">
+            {/* Safety Instructions Image */}
+            <div className="mb-8">
+              <img
+                src="/veronawebsite/logo/pro-lI16ENM2.jpeg"
+                alt="Veiligheidsvoorschriften"
+                className="w-full rounded-xl shadow-md"
+              />
+            </div>
+
+            <div className="space-y-6 text-verona-brown">
               <section>
-                <h2 className="text-xl font-semibold text-neutral-charcoal mb-3">
+                <h2 className="text-xl font-semibold text-verona-green-dark mb-3">
                   Algemene Veiligheid
                 </h2>
                 <ul className="list-disc list-inside space-y-2">
@@ -29,7 +38,7 @@ export function SafetyInstructions(_props: SafetyInstructionsProps) {
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-neutral-charcoal mb-3">
+                <h2 className="text-xl font-semibold text-verona-green-dark mb-3">
                   Onderhoud en Verzorging
                 </h2>
                 <ul className="list-disc list-inside space-y-2">
@@ -41,7 +50,7 @@ export function SafetyInstructions(_props: SafetyInstructionsProps) {
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-neutral-charcoal mb-3">
+                <h2 className="text-xl font-semibold text-verona-green-dark mb-3">
                   Specifieke Waarschuwingen
                 </h2>
                 <ul className="list-disc list-inside space-y-2">
@@ -53,7 +62,7 @@ export function SafetyInstructions(_props: SafetyInstructionsProps) {
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-neutral-charcoal mb-3">
+                <h2 className="text-xl font-semibold text-verona-green-dark mb-3">
                   Contact bij Vragen
                 </h2>
                 <p>
@@ -61,7 +70,7 @@ export function SafetyInstructions(_props: SafetyInstructionsProps) {
                   met ons op via{' '}
                   <a
                     href="mailto:info@handmadebyverona.com"
-                    className="text-neutral-accent hover:text-neutral-darkest underline"
+                    className="text-verona-green hover:text-verona-green-dark underline font-medium"
                   >
                     info@handmadebyverona.com
                   </a>
@@ -70,7 +79,7 @@ export function SafetyInstructions(_props: SafetyInstructionsProps) {
                     href="https://www.instagram.com/handmadebyverona/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-neutral-accent hover:text-neutral-darkest underline"
+                    className="text-verona-green hover:text-verona-green-dark underline font-medium"
                   >
                     @handmadebyverona
                   </a>
@@ -78,10 +87,10 @@ export function SafetyInstructions(_props: SafetyInstructionsProps) {
               </section>
             </div>
 
-            <div className="mt-8">
+            <div className="mt-8 text-center">
               <a
                 href="/"
-                className="inline-flex items-center text-neutral-charcoal hover:text-neutral-darkest transition-colors duration-200"
+                className="inline-flex items-center px-6 py-3 bg-verona-green text-verona-white rounded-xl hover:bg-verona-green-dark transition-colors duration-200 font-medium shadow-md"
               >
                 ← Terug naar producten
               </a>

@@ -3,7 +3,7 @@ import { ShieldAlert } from 'lucide-preact'
 
 export function Header() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-neutral-lighter border-b border-neutral-light">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-verona-cream border-b-2 border-verona-beige shadow-sm">
       <div className="max-w-7xl mx-auto px-6 py-6">
         {/* Logo, Title & Subtitle */}
         <div className="flex flex-col items-center text-center mb-6">
@@ -11,14 +11,14 @@ export function Header() {
             <img
               src="/veronawebsite/logo/ChatGPT Image 18 aug 2025, 18_22_31 (1).png"
               alt="Handmade by Verona Logo"
-              className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover mx-auto shadow-md"
+              className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover mx-auto shadow-lg border-4 border-verona-white"
             />
           </a>
           <a href="/" className="block">
-            <h1 className="text-3xl md:text-4xl font-bold text-neutral-charcoal mb-2">
+            <h1 className="text-3xl md:text-4xl font-bold text-verona-olive mb-2">
               Handmade by Verona
             </h1>
-            <p className="text-lg md:text-xl text-neutral-darker font-medium">
+            <p className="text-lg md:text-xl text-verona-brown font-medium">
               Unieke en Persoonlijke Creaties
             </p>
           </a>
@@ -30,21 +30,21 @@ export function Header() {
             href="https://www.instagram.com/handmadebyverona/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 bg-neutral-charcoal text-neutral-lightest rounded-lg hover:bg-neutral-darkest transition-colors duration-200 font-medium text-sm"
+            className="inline-flex items-center gap-2 px-5 py-2.5 bg-verona-green text-verona-white rounded-xl hover:bg-verona-green-dark transition-colors duration-200 font-medium text-sm shadow-md hover:shadow-lg"
           >
             <InstagramIcon size={18} />
             <span>Instagram</span>
           </a>
           <a
             href="mailto:info@handmadebyverona.com"
-            className="inline-flex items-center gap-2 px-4 py-2 bg-neutral-charcoal text-neutral-lightest rounded-lg hover:bg-neutral-darkest transition-colors duration-200 font-medium text-sm"
+            className="inline-flex items-center gap-2 px-5 py-2.5 bg-verona-beige text-verona-brown rounded-xl hover:bg-verona-beige-dark transition-colors duration-200 font-medium text-sm shadow-md hover:shadow-lg"
           >
             <MailIcon size={18} />
             <span>Email</span>
           </a>
           <a
             href="/safety"
-            className="inline-flex items-center gap-2 px-4 py-2 bg-neutral-charcoal text-neutral-lightest rounded-lg hover:bg-neutral-darkest transition-colors duration-200 font-medium text-sm"
+            className="inline-flex items-center gap-2 px-5 py-2.5 bg-verona-olive text-verona-white rounded-xl hover:bg-verona-green-dark transition-colors duration-200 font-medium text-sm shadow-md hover:shadow-lg"
           >
             <ShieldAlert size={18} />
             <span>Veiligheidsvoorschriften</span>
