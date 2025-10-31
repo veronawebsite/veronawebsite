@@ -32,20 +32,32 @@ export function HomePage(_props: HomePageProps) {
   }, [])
 
   return (
-    <div className="min-h-screen bg-verona-beige-light">
+    <div className="min-h-screen bg-verona-cream">
       {/* Header */}
       <Header />
 
-      {/* Main Content */}
-      <div className="pt-80 md:pt-72 pb-12 px-4">
+      {/* Logo - positioned to sit on top of header */}
+      <div className="fixed top-2 left-1/2 -translate-x-1/2 z-50">
+        <img
+          src="/veronawebsite/logo/ChatGPT Image 18 aug 2025, 18_22_31 (1).png"
+          alt="Handmade by Verona"
+          className="w-20 h-20 md:w-28 md:h-28 rounded-full object-cover shadow-xl border-4 border-verona-white"
+        />
+      </div>
+
+      {/* Hero Section */}
+      <div className="pt-24 pb-6 bg-gradient-to-b from-verona-white to-verona-cream">
+      </div>
+
+      {/* Products Section */}
+      <div className="pb-16 px-6">
         <div className="max-w-7xl mx-auto">
-          {/* Products Grid - 4 columns */}
           {loading ? (
             <div className="text-center text-verona-brown py-12">
               <p className="text-lg">Producten laden...</p>
             </div>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
               {products.map((product) => (
                 <ProductCard
                   key={product.id}
@@ -53,7 +65,6 @@ export function HomePage(_props: HomePageProps) {
                   price={`€${product.prijs}`}
                   imageUrl={product.foto}
                   kleuropties={product.kleuropties}
-                  instagramUrl="https://www.instagram.com/handmadebyverona/"
                 />
               ))}
             </div>

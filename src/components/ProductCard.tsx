@@ -3,11 +3,10 @@ interface ProductCardProps {
   description?: string
   price?: string
   imageUrl: string
-  instagramUrl?: string
   kleuropties?: string[]
 }
 
-export function ProductCard({ title, description, price, imageUrl, instagramUrl, kleuropties }: ProductCardProps) {
+export function ProductCard({ title, description, price, imageUrl, kleuropties }: ProductCardProps) {
   return (
     <div className="group bg-verona-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-verona-beige-light">
       {/* Image Container with rounded edges */}
@@ -59,16 +58,12 @@ export function ProductCard({ title, description, price, imageUrl, instagramUrl,
           </div>
         )}
 
-        {instagramUrl && (
-          <a
-            href={instagramUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center text-xs text-verona-green hover:text-verona-green-dark transition-colors duration-200 font-medium mt-2"
-          >
-            Bekijk op Instagram →
-          </a>
-        )}
+        <a
+          href={`mailto:info@handmadebyverona.com?subject=Bestelling: ${title}&body=Hallo, ik wil graag meer informatie over ${title}.`}
+          className="inline-flex items-center text-xs text-verona-green hover:text-verona-green-dark transition-colors duration-200 font-medium mt-2"
+        >
+          Bestel via email →
+        </a>
       </div>
     </div>
   )

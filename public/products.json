@@ -1,58 +1,58 @@
 [
   {
     "id": 1,
-    "productNaam": "Handgemaakte Creatie 1",
-    "prijs": "25.00",
-    "kleuropties": ["Beige", "Wit", "Roze"],
+    "productNaam": "Wagenketting Olifantje",
+    "prijs": "18.50",
+    "kleuropties": ["Naturel", "Roze", "Grijs", "Blauw"],
     "foto": "/veronawebsite/pictures/pro-jxA3ICXg.jpeg"
   },
   {
     "id": 2,
-    "productNaam": "Handgemaakte Creatie 2",
-    "prijs": "30.00",
-    "kleuropties": ["Blauw", "Groen", "Geel"],
+    "productNaam": "Baby Pyjama Safari",
+    "prijs": "24.95",
+    "kleuropties": ["Wit", "Petrol"],
     "foto": "/veronawebsite/pictures/pro-Za9cADm2.jpeg"
   },
   {
     "id": 3,
-    "productNaam": "Handgemaakte Creatie 3",
-    "prijs": "20.00",
-    "kleuropties": ["Rood", "Oranje"],
+    "productNaam": "Speenkoord Set",
+    "prijs": "16.50",
+    "kleuropties": ["Roze", "Grijs", "Mintgroen"],
     "foto": "/veronawebsite/pictures/pro-CbHDwIYS.jpeg"
   },
   {
     "id": 4,
-    "productNaam": "Handgemaakte Creatie 4",
-    "prijs": "35.00",
-    "kleuropties": ["Paars", "Roze", "Wit"],
+    "productNaam": "Knuffeldoekje Bloemen",
+    "prijs": "12.95",
+    "kleuropties": ["Roestbruin", "Wit"],
     "foto": "/veronawebsite/pictures/pro-05CtxewX.jpeg"
   },
   {
     "id": 5,
-    "productNaam": "Handgemaakte Creatie 5",
-    "prijs": "28.00",
-    "kleuropties": ["Bruin", "Beige"],
+    "productNaam": "Bijtring Set Beertje",
+    "prijs": "19.95",
+    "kleuropties": ["Roze", "Mintgroen", "Bruin"],
     "foto": "/veronawebsite/pictures/pro-SjIIuchp.jpeg"
   },
   {
     "id": 6,
-    "productNaam": "Handgemaakte Creatie 6",
-    "prijs": "32.00",
-    "kleuropties": ["Zwart", "Grijs", "Wit"],
+    "productNaam": "Hydrofiel Doeken Set",
+    "prijs": "22.50",
+    "kleuropties": ["Wit", "Bruin", "Blauw"],
     "foto": "/veronawebsite/pictures/pro-P0mkOj2i.jpeg"
   },
   {
     "id": 7,
-    "productNaam": "Handgemaakte Creatie 7",
-    "prijs": "27.00",
-    "kleuropties": ["Groen", "Geel"],
+    "productNaam": "Bandana Slabbetjes",
+    "prijs": "14.95",
+    "kleuropties": ["Roestbruin", "Beige", "Petrol", "Groen"],
     "foto": "/veronawebsite/pictures/pro-f5xdN3U3.jpeg"
   },
   {
     "id": 8,
-    "productNaam": "Handgemaakte Creatie 8",
-    "prijs": "33.00",
-    "kleuropties": ["Blauw", "Wit", "Roze"],
+    "productNaam": "Speelgoed Slinger",
+    "prijs": "17.95",
+    "kleuropties": ["Naturel", "Mintgroen", "Bruin"],
     "foto": "/veronawebsite/pictures/pro-im3S8up0.jpeg"
   }
 ]
