@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "productNaam": "Handgemaakte Creatie 1",
+    "prijs": "25.00",
+    "kleuropties": ["Beige", "Wit", "Roze"],
+    "foto": "/veronawebsite/pictures/pro-jxA3ICXg.jpeg"
+  },
+  {
+    "id": 2,
+    "productNaam": "Handgemaakte Creatie 2",
+    "prijs": "30.00",
+    "kleuropties": ["Blauw", "Groen", "Geel"],
+    "foto": "/veronawebsite/pictures/pro-Za9cADm2.jpeg"
+  },
+  {
+    "id": 3,
+    "productNaam": "Handgemaakte Creatie 3",
+    "prijs": "20.00",
+    "kleuropties": ["Rood", "Oranje"],
+    "foto": "/veronawebsite/pictures/pro-CbHDwIYS.jpeg"
+  },
+  {
+    "id": 4,
+    "productNaam": "Handgemaakte Creatie 4",
+    "prijs": "35.00",
+    "kleuropties": ["Paars", "Roze", "Wit"],
+    "foto": "/veronawebsite/pictures/pro-05CtxewX.jpeg"
+  },
+  {
+    "id": 5,
+    "productNaam": "Handgemaakte Creatie 5",
+    "prijs": "28.00",
+    "kleuropties": ["Bruin", "Beige"],
+    "foto": "/veronawebsite/pictures/pro-SjIIuchp.jpeg"
+  },
+  {
+    "id": 6,
+    "productNaam": "Handgemaakte Creatie 6",
+    "prijs": "32.00",
+    "kleuropties": ["Zwart", "Grijs", "Wit"],
+    "foto": "/veronawebsite/pictures/pro-P0mkOj2i.jpeg"
+  },
+  {
+    "id": 7,
+    "productNaam": "Handgemaakte Creatie 7",
+    "prijs": "27.00",
+    "kleuropties": ["Groen", "Geel"],
+    "foto": "/veronawebsite/pictures/pro-f5xdN3U3.jpeg"
+  },
+  {
+    "id": 8,
+    "productNaam": "Handgemaakte Creatie 8",
+    "prijs": "33.00",
+    "kleuropties": ["Blauw", "Wit", "Roze"],
+    "foto": "/veronawebsite/pictures/pro-im3S8up0.jpeg"
+  }
+]

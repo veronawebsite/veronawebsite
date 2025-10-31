@@ -5,7 +5,10 @@
       "Bash(npm install)",
       "Bash(git log:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$(cat <<''EOF''\nTransform site into Handmade by Verona shop with product gallery\n\n- Updated branding from Hybrid Method to Handmade by Verona\n- Created ProductCard component for displaying shop items\n- Transformed HomePage into a beautiful product gallery layout\n- Added responsive grid layout for products\n- Created public/products folder structure for product images\n- Added placeholder products with sample data structure\n- Updated all links to point to handmadebyverona Instagram\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+      "Bash(git commit -m \"$(cat <<''EOF''\nTransform site into Handmade by Verona shop with product gallery\n\n- Updated branding from Hybrid Method to Handmade by Verona\n- Created ProductCard component for displaying shop items\n- Transformed HomePage into a beautiful product gallery layout\n- Added responsive grid layout for products\n- Created public/products folder structure for product images\n- Added placeholder products with sample data structure\n- Updated all links to point to handmadebyverona Instagram\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)",
+      "Bash(npm install:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nComplete overhaul: Shop met producten, logo en veiligheidsvoorschriften\n\n- Toegevoegd: Rond logo in header met titel en ondertitel\n- Header: 3 knoppen (Instagram, Email, Veiligheidsvoorschriften)\n- Productgallery met 4 kolommen (responsive)\n- Producten laden uit products.json met kleuropties en prijzen\n- 8 producten met echte foto''s toegevoegd\n- Veiligheidsvoorschriften pagina met routing\n- Logo en afbeeldingen in public folder\n- Nederlandse teksten en interface\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
     ],
     "deny": [],
     "ask": []

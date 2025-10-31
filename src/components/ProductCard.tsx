@@ -4,9 +4,10 @@ interface ProductCardProps {
   price?: string
   imageUrl: string
   instagramUrl?: string
+  kleuropties?: string[]
 }
 
-export function ProductCard({ title, description, price, imageUrl, instagramUrl }: ProductCardProps) {
+export function ProductCard({ title, description, price, imageUrl, instagramUrl, kleuropties }: ProductCardProps) {
   return (
     <div className="group bg-neutral-lightest rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
       {/* Image Container */}
@@ -21,7 +22,7 @@ export function ProductCard({ title, description, price, imageUrl, instagramUrl 
 
       {/* Product Info */}
       <div className="p-4">
-        <h3 className="text-lg font-semibold text-neutral-charcoal mb-1">
+        <h3 className="text-lg font-semibold text-neutral-charcoal mb-2">
           {title}
         </h3>
 
@@ -31,9 +32,25 @@ export function ProductCard({ title, description, price, imageUrl, instagramUrl 
           </p>
         )}
 
+        {kleuropties && kleuropties.length > 0 && (
+          <div className="mb-3">
+            <p className="text-xs text-neutral-darker mb-1">Kleuren:</p>
+            <div className="flex flex-wrap gap-1">
+              {kleuropties.map((kleur, index) => (
+                <span
+                  key={index}
+                  className="text-xs px-2 py-1 bg-neutral-light text-neutral-darkest rounded"
+                >
+                  {kleur}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
+
         <div className="flex items-center justify-between mt-3">
           {price && (
-            <span className="text-lg font-medium text-neutral-darkest">
+            <span className="text-lg font-semibold text-neutral-darkest">
               {price}
             </span>
           )}
@@ -43,9 +60,9 @@ export function ProductCard({ title, description, price, imageUrl, instagramUrl 
               href={instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm text-neutral-accent hover:text-neutral-darkest transition-colors duration-200 font-medium"
+              className="text-xs text-neutral-accent hover:text-neutral-darkest transition-colors duration-200 font-medium"
             >
-              View on Instagram →
+              Bekijk →
             </a>
           )}
         </div>
