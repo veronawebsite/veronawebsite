@@ -1,58 +1,79 @@
 [
   {
     "id": 1,
-    "productNaam": "Wagenketting Olifantje",
-    "prijs": "18.50",
-    "kleuropties": ["Naturel", "Roze", "Grijs", "Blauw"],
+    "productNaam": "Wagenspanner",
+    "prijs": "15.00",
+    "kleuropties": ["roze", "blauw", "groen", "naturel"],
     "foto": "/veronawebsite/pictures/pro-jxA3ICXg.jpeg"
   },
   {
     "id": 2,
-    "productNaam": "Baby Pyjama Safari",
-    "prijs": "24.95",
-    "kleuropties": ["Wit", "Petrol"],
+    "productNaam": "Kledingsetje",
+    "prijs": "15.00",
+    "kleuropties": ["Diverse combinaties, kijk op Instagram voor de mogelijkheden"],
     "foto": "/veronawebsite/pictures/pro-Za9cADm2.jpeg"
   },
   {
     "id": 3,
-    "productNaam": "Speenkoord Set",
-    "prijs": "16.50",
-    "kleuropties": ["Roze", "Grijs", "Mintgroen"],
+    "productNaam": "Speenkoord",
+    "prijs": "9.50",
+    "kleuropties": ["roze", "blauw", "groen", "grijs", "oranje", "geel", "panter", "naturel"],
     "foto": "/veronawebsite/pictures/pro-CbHDwIYS.jpeg"
   },
   {
     "id": 4,
-    "productNaam": "Knuffeldoekje Bloemen",
-    "prijs": "12.95",
-    "kleuropties": ["Roestbruin", "Wit"],
+    "productNaam": "Slabbetje/mutsje",
+    "prijs": "5.00",
+    "kleuropties": ["Diverse combinaties, kijk op Instagram voor de mogelijkheden"],
     "foto": "/veronawebsite/pictures/pro-05CtxewX.jpeg"
   },
   {
     "id": 5,
-    "productNaam": "Bijtring Set Beertje",
-    "prijs": "19.95",
-    "kleuropties": ["Roze", "Mintgroen", "Bruin"],
+    "productNaam": "Bijtring",
+    "prijs": "7.50",
+    "kleuropties": ["roze", "blauw", "groen", "grijs", "oranje", "geel", "panter", "naturel"],
     "foto": "/veronawebsite/pictures/pro-SjIIuchp.jpeg"
   },
   {
     "id": 6,
-    "productNaam": "Hydrofiel Doeken Set",
-    "prijs": "22.50",
-    "kleuropties": ["Wit", "Bruin", "Blauw"],
+    "productNaam": "Zintuigzakjes",
+    "prijs": "12.50",
+    "kleuropties": ["Diverse combinaties mogelijk"],
     "foto": "/veronawebsite/pictures/pro-P0mkOj2i.jpeg"
   },
   {
     "id": 7,
-    "productNaam": "Bandana Slabbetjes",
-    "prijs": "14.95",
-    "kleuropties": ["Roestbruin", "Beige", "Petrol", "Groen"],
+    "productNaam": "Slabbetjes",
+    "prijs": "5.00",
+    "kleuropties": ["Diverse kleuren"],
     "foto": "/veronawebsite/pictures/pro-f5xdN3U3.jpeg"
   },
   {
     "id": 8,
-    "productNaam": "Speelgoed Slinger",
-    "prijs": "17.95",
-    "kleuropties": ["Naturel", "Mintgroen", "Bruin"],
+    "productNaam": "Wagen/maxi cosi hanger",
+    "prijs": "10.00",
+    "kleuropties": ["roze", "blauw", "groen", "naturel"],
     "foto": "/veronawebsite/pictures/pro-im3S8up0.jpeg"
+  },
+  {
+    "id": 9,
+    "productNaam": "Romper korte mouw",
+    "prijs": "6.50",
+    "kleuropties": ["roze", "blauw", "groen", "bruin", "lila", "oranje"],
+    "foto": "/veronawebsite/pictures/1000060402.jpg"
+  },
+  {
+    "id": 10,
+    "productNaam": "Maan speendoekje",
+    "prijs": "5.00",
+    "kleuropties": [],
+    "foto": "/veronawebsite/pictures/1000060401.jpg"
+  },
+  {
+    "id": 11,
+    "productNaam": "Kledingsetje",
+    "prijs": "15.00",
+    "kleuropties": ["Diverse combinaties, kijk op Instagram voor de mogelijkheden"],
+    "foto": "/veronawebsite/pictures/1000060404.jpg"
   }
 ]
