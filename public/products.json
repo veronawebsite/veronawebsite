@@ -8,69 +8,62 @@
   },
   {
     "id": 2,
-    "productNaam": "Kledingsetje",
-    "prijs": "15.00",
-    "kleuropties": ["Diverse combinaties, kijk op Instagram voor de mogelijkheden"],
-    "foto": "/veronawebsite/pictures/pro-Za9cADm2.jpeg"
-  },
-  {
-    "id": 3,
     "productNaam": "Speenkoord",
     "prijs": "9.50",
     "kleuropties": ["roze", "blauw", "groen", "grijs", "oranje", "geel", "panter", "naturel"],
     "foto": "/veronawebsite/pictures/pro-CbHDwIYS.jpeg"
   },
   {
-    "id": 4,
+    "id": 3,
     "productNaam": "Slabbetje/mutsje",
     "prijs": "5.00",
     "kleuropties": ["Diverse combinaties, kijk op Instagram voor de mogelijkheden"],
     "foto": "/veronawebsite/pictures/pro-05CtxewX.jpeg"
   },
   {
-    "id": 5,
+    "id": 4,
     "productNaam": "Bijtring",
     "prijs": "7.50",
     "kleuropties": ["roze", "blauw", "groen", "grijs", "oranje", "geel", "panter", "naturel"],
     "foto": "/veronawebsite/pictures/pro-SjIIuchp.jpeg"
   },
   {
-    "id": 6,
+    "id": 5,
     "productNaam": "Zintuigzakjes",
     "prijs": "12.50",
     "kleuropties": ["Diverse combinaties mogelijk"],
     "foto": "/veronawebsite/pictures/pro-P0mkOj2i.jpeg"
   },
   {
-    "id": 7,
+    "id": 6,
     "productNaam": "Slabbetjes",
     "prijs": "5.00",
     "kleuropties": ["Diverse kleuren"],
     "foto": "/veronawebsite/pictures/pro-f5xdN3U3.jpeg"
   },
   {
-    "id": 8,
+    "id": 7,
     "productNaam": "Wagen/maxi cosi hanger",
     "prijs": "10.00",
     "kleuropties": ["roze", "blauw", "groen", "naturel"],
     "foto": "/veronawebsite/pictures/pro-im3S8up0.jpeg"
   },
   {
-    "id": 9,
+    "id": 8,
     "productNaam": "Romper korte mouw",
     "prijs": "6.50",
-    "kleuropties": ["roze", "blauw", "groen", "bruin", "lila", "oranje"],
+    "kleuropties": ["Beschikbare kleuren"],
     "foto": "/veronawebsite/pictures/1000060402.jpg"
   },
   {
-    "id": 10,
+    "id": 9,
     "productNaam": "Maan speendoekje",
     "prijs": "5.00",
     "kleuropties": [],
     "foto": "/veronawebsite/pictures/1000060401.jpg"
   },
   {
-    "id": 11,
+    "id": 10,
     "productNaam": "Kledingsetje",
     "prijs": "15.00",
     "kleuropties": ["Diverse combinaties, kijk op Instagram voor de mogelijkheden"],
