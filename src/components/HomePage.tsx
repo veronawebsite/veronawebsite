@@ -20,7 +20,7 @@ export function HomePage(_props: HomePageProps) {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch('/veronawebsite/products.json')
+    fetch('/products.json')
       .then((response) => response.json())
       .then((data) => {
         setProducts(data)
@@ -40,7 +40,7 @@ export function HomePage(_props: HomePageProps) {
       {/* Logo - positioned to sit on top of header */}
       <div className="fixed top-2 md:top-2 left-1/2 -translate-x-1/2 z-50">
         <img
-          src="/veronawebsite/logo/ChatGPT Image 18 aug 2025, 18_22_31 (1).png"
+          src="/logo/ChatGPT Image 18 aug 2025, 18_22_31 (1).png"
           alt="Handmade by Verona"
           className="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover shadow-xl border-4 md:border-4 border-verona-white"
         />

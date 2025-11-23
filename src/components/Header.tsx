@@ -13,7 +13,7 @@ export function Header() {
         <div className="hidden md:flex items-center justify-between">
           {/* Left: Brand Name */}
           <div className="flex-1 mr-2">
-            <a href="/veronawebsite/" className="text-xl font-bold text-verona-olive hover:text-verona-green-dark transition-colors block leading-tight">
+            <a href="/" className="text-xl font-bold text-verona-olive hover:text-verona-green-dark transition-colors block leading-tight">
               Handmade by Verona
             </a>
             <p className="text-xs text-verona-brown mt-0.5">
@@ -40,7 +40,7 @@ export function Header() {
               <span>Email</span>
             </a>
             <a
-              href="/veronawebsite/safety"
+              href="/safety"
               className="flex items-center gap-2 text-verona-brown hover:text-verona-green transition-colors duration-200 text-sm font-medium"
             >
               <ShieldAlert size={18} />

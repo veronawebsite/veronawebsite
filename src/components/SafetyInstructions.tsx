@@ -14,7 +14,7 @@ export function SafetyInstructions(_props: SafetyInstructionsProps) {
           {/* Back Button */}
           <div className="mb-4 md:mb-8 px-2">
             <a
-              href="/veronawebsite/"
+              href="/"
               className="inline-flex items-center gap-2 text-verona-brown hover:text-verona-green transition-colors duration-200 font-medium text-sm md:text-base"
             >
               ← Terug naar producten
@@ -24,7 +24,7 @@ export function SafetyInstructions(_props: SafetyInstructionsProps) {
           {/* Safety Instructions Image - Larger and no title */}
           <div className="bg-verona-white rounded-xl md:rounded-2xl p-2 md:p-4 shadow-lg">
             <img
-              src="/veronawebsite/logo/pro-lI16ENM2.jpeg"
+              src="/logo/pro-lI16ENM2.jpeg"
               alt="Veiligheidsvoorschriften"
               className="w-full rounded-lg md:rounded-xl"
             />

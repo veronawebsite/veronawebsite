@@ -44,7 +44,7 @@ export function InfoCard() {
           <span className="text-xs md:text-sm font-medium">Email</span>
         </a>
         <a
-          href="/veronawebsite/safety"
+          href="/safety"
           className="flex flex-col items-center gap-1 md:gap-2 text-verona-brown hover:text-verona-green transition-colors duration-200"
         >
           <ShieldAlert size={24} className="md:w-8 md:h-8" />
